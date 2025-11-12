@@ -1,0 +1,10 @@
+*.bin
+*.suo
+*.user
+*.vs/
+*.xppbin
+*.nupkg
+Packages/
+AxDeployablePackage/
+Temp/
+XppMetadata/

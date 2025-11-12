@@ -1,0 +1,6 @@
+[submodule "Vendors/XppTools"]
+	path = Vendors/XppTools
+	url = https://github.com/TrudAX/XppTools
+[submodule "Vendors/DAXCustomFeatureManagement"]
+	path = Vendors/DAXCustomFeatureManagement
+	url = https://github.com/daxonet/DAXCustomFeatureManagement.git
