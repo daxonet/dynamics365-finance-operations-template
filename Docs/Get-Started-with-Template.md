@@ -97,7 +97,7 @@
 
 > For more information refer  [Create Artifacts feed](https://docs.microsoft.com/en-us/azure/devops/artifacts/concepts/feeds)
 
-1. Folow instructions in [Pacakges folder](/packages/README.md) to upload pacakges from LCS to Artifacts.
+1. Folow instructions in [Pacakges folder](/Packages/README.md) to upload pacakges from LCS to Artifacts.
 
 ## Adding submodelds
 

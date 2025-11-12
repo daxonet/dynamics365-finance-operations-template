@@ -5,9 +5,9 @@ Dynamics 365 Finance Operations Implementation Project
 
 ## Get started
 
-> Follow the [Get Started with Template](Docs\Get-Started-with-Template.md) instructions to create new implementation project from template on Customer DevOps.
+> Follow the [Get Started with Template](Docs/Get-Started-with-Template.md) instructions to create new implementation project from template on Customer DevOps.
 
-See the [Get Started](Docs\Get-Started.md), development guide before start development.
+See the [Get Started](Docs/Get-Started.md), development guide before start development.
 
 ## Project Overview
 - **Project Name**: *[Insert Project Name]*
