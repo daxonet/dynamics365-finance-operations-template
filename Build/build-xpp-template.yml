@@ -53,9 +53,9 @@ stages:
       # /p:ReferenceFolder are metadata folders containing other (compiled) X++ packages that are referenced
       # /p:ReferencePath are folders containing non-X++ assemblies referenced (aside from one already in the output folder for the package)
       - task: VSBuild@1
-        displayName: 'Build solution **\*.sln'
+        displayName: 'Build solution $(Build.SourcesDirectory)\s\models.sln'
         inputs:
-          solution: '**/*.sln'
+          solution: '$(Build.SourcesDirectory)\s\models.sln'
           vsVersion: '16.0'
           msbuildArgs: '/p:BuildTasksDirectory="$(NugetsPath)\$(ToolsPackage)\DevAlm" /p:MetadataDirectory="$(MetadataPath)" /p:FrameworkDirectory="$(NuGetsPath)\$(ToolsPackage)" /p:ReferenceFolder="$(NuGetsPath)\$(PlatPackage)\ref\net40;$(NuGetsPath)\$(App1Package)\ref\net40;$(NuGetsPath)\$(App2Package)\ref\net40;$(NuGetsPath)\$(AppSuitePackage)\ref\net40;$(MetadataPath);$(Build.BinariesDirectory)" /p:ReferencePath="$(NuGetsPath)\$(ToolsPackage)" /p:OutputDirectory="$(Build.BinariesDirectory)"'
 

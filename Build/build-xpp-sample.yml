@@ -3,7 +3,7 @@ trigger: none
 name: $(Date:yy.MM.dd)$(Rev:.r)
 
 stages: 
-- template: build-xpp.yml
+- template: build-xpp-template.yml
 # below for add a license file to the package for each model with licensing
 #  parameters:
 #    modelsWithLicense: ['model1','model2']
